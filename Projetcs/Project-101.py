@@ -5,7 +5,6 @@ quest = str(input('Would you like to roll the dice? If yes, write "yes", or "no"
 
 def roll_the_dice():
     num = random.randint(1,6)
-    print(num)
     
     for x in range(0, num):
         for y in range(0, num):
