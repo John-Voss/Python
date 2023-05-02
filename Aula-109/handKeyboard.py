@@ -42,7 +42,7 @@ def countFingers(image, hand_landmarks, handNo=0):
                         fingers.append(0)
                         # print("DEDO com id ",lm_index," está Fechado")
 
-        totalFingers = fingers.count(1)
+        totalFingers = fingers.count(1) 
         
         # REPRODUZA ou PAUSE um Vídeo
         if totalFingers == 4:
